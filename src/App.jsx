@@ -1,6 +1,8 @@
 import TaskList from "./components/TaskList";
 import TaskForm from "./components/TaskForm";
 
+//npm run dev-------
+
 function App() {
   return (
     <main className="bg-zinc-400 h-screen">
