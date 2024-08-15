@@ -8,7 +8,7 @@ function TaskList() {
   const { tasks } = useContext(TaskContext);
 
   if (tasks.length === 0) {
-    return <h1>No hay tareas aún</h1>;
+    return <h1 className="text-cyan-800 text-4xl font-bold text-center">Todavía no hay tareas</h1>;
   }
   // console.log(tasks[1].title)
   

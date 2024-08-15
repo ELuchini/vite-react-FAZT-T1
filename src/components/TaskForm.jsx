@@ -19,12 +19,14 @@ function TaskForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <h1>Tareas</h1>
+    <header className="max-w-md mx-auto">
+      <form onSubmit={handleSubmit} className="bg-slate-700 p-10 mb-4 rounded-lg">
+      <h1 className="text-2xl font-semibold mb-3 text-white">Tareas</h1>
       <input id="InputFocus"
         placeholder="Escribe tu tarea"
         onChange={(e) => setTitle(e.target.value)}
         value={title}
+        className="bg-slate-300 p-2 w-full mb-3"
         autoFocus
       />
       <br />
@@ -32,10 +34,12 @@ function TaskForm() {
         placeholder="Descripción"
         onChange={(e) => setDescription(e.target.value)}
         value={description}
+        className="bg-slate-300 p-3 w-full mb-3"
       />
       <br />
-      <button className="bg-cyan-600 hover:bg-sky-400 p-2 rounded-md">Guardar</button>
+      <button className="bg-cyan-600 hover:bg-sky-400 px-7 py-2 p-2 rounded-md text-white font-medium">Guardar</button>
     </form>
+    </header>
   );
 }
 
