@@ -7,3 +7,4 @@ https://faztweb.com/
 
 
 08-07-24 INSTALO TAILWIND CSS.
+15-08-24 Termino detalles que me quedaron colgados. 
