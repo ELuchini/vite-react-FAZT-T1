@@ -1,8 +1,14 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tutorial hecho en base a video en YouTube de FAZT, en el que curioseo y pruebo el uso de react, y tailwind css.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Pruebo el despliegue de la misma en este enlace: https://aries1.luchini.com.ar
+
+- Ref.:
+https://www.youtube.com/watch?v=rLoWMU4L_qE
+
+Curso de react desde cero para principiantes 2022 
+Fazt
+
+https://faztweb.com/
